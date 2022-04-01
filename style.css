@@ -1,10 +1,10 @@
-body {
+body{
     background-color: silver ;
     color: white ;
     padding: 20px ;
     font-family: Arial, Helvetica, sans-serif ;}
-    h1 {
-        background-color: #ffffff;
+     .phscaleh1{
+        background-color: rgb(245, 243, 243);
         background-color: hsla( 0,100%,0.5 );
         color: #64645a ;
         padding: inherit;}
@@ -41,5 +41,52 @@ body {
  p.thirten{
      background-color: rgb( 0,149,226 ) ;}
  p.fourten{
-     background-color: rgb( 0,136,221 ) ;}                                                   
- 
+     background-color: rgb( 0,136,221 ) ;}
+     
+
+div>a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 3px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(241, 135, 215);
+    color: white;
+     border-radius: 0%;}
+    div>a:hover{
+        background-color: rgb(226, 114, 114);}
+
+@font-face {
+    font-family: "myfirstfont" ;
+    src: url( "fonts/Roboto-Black.ttf" );}
+
+    .class1{
+        font-family: myfirstfont, Georgia, 'Times New Roman', serif;
+        color: black;}
+
+    .class2,.class3{
+        font-family: 'Gill Sans', 'Gill Sans MT',
+         Calibri,'Trebuchet MS', sans-serif;
+        color: rgb(56, 45, 45);}
+              
+    .class4{
+           font-family: "myfirstfont";
+           color: black;} 
+
+    @font-face{
+            font-family: "my2ndFont";
+            src: url( "fonts/RobotoMono-SemiBoldItalic.ttf" );}
+        
+    .class5{
+         font-family: "my2ndfont";
+         color: #64645a;  }
+
+
+                
+           
+
+    
