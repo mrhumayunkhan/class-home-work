@@ -71,19 +71,15 @@ div>a{
     .class2,.class3{
         font-family: 'Gill Sans', 'Gill Sans MT',
          Calibri,'Trebuchet MS', sans-serif;
-        color: rgb(56, 45, 45);}
+        color: black;}
               
     .class4{
            font-family: "myfirstfont";
            color: black;} 
-
-    @font-face{
-            font-family: "my2ndFont";
-            src: url( "fonts/RobotoMono-SemiBoldItalic.ttf" );}
         
     .class5{
-         font-family: "my2ndfont";
-         color: #64645a;  }
+        font-family: 'Anybody', cursive;
+        color: black;
 
 
                 
